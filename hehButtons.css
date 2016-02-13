@@ -1,3 +1,74 @@
+/* hehButtons */
+
 .btn-heh {
-  // uhehendum gratia
+  margin: 0 0 6px 0;
+  position: relative;
+  outline: none !important;
+}
+.btn-heh:hover {
+  top: 2px;
+}
+.btn-heh:active {
+  top: 6px;
+}
+.btn-heh:hover:before {
+  /* uhehendum gratia */
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  top: -3px;
+  left: 0;
+}
+.btn-heh:focus, .btn-heh:active:focus {
+  outline: none;
+}
+
+/* small sizes */
+
+.btn-heh.btn-xs:active, .btn-heh.btn-xs:active:focus {
+  top: 2px;
+}
+.btn-heh.btn-xs:hover {
+  top: 1px;
+}
+.btn-heh.btn-xs:hover:before {
+  top: -1px;
+  height: 1px;
+}
+.btn-heh.btn-xs {
+  margin-bottom: 0;
+}
+
+/* shadow colours */
+
+.btn-heh.btn-primary {
+	background: #337ab7;
+	box-shadow: 0 6px #255883;
+}
+.btn-heh.btn-primary:hover {
+	background: #286090;
+	box-shadow: 0 4px #1A4060;
+}
+.btn-heh.btn-primary:active, .btn-heh.btn-primary:focus, .btn-heh.btn-primary:active:focus, .btn-heh.btn-primary:active:hover {
+	background: #286090;
+}
+.btn-heh.btn-primary:active {
+	box-shadow: 0 0 #204d74;
+}
+
+.btn-heh.btn-default {
+	background: #fff;
+	box-shadow: 0 6px #bbb;
+}
+.btn-heh.btn-default:hover {
+	background: #e6e6e6;
+	box-shadow: 0 4px #9f9f9f;
+}
+.btn-heh.btn-default:active, .btn-heh.btn-default:focus, .btn-heh.btn-default:active:focus, .btn-heh.btn-default:active:hover {
+	background: #d4d4d4;
+}
+.btn-heh.btn-default:active {
+	box-shadow: 0 0 #8c8c8c;
 }
