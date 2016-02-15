@@ -51,7 +51,7 @@
 	background: #286090;
 	box-shadow: 0 4px #1A4060;
 }
-.btn-heh.btn-primary:active, .btn-heh.btn-primary:focus, .btn-heh.btn-primary:active:focus, .btn-heh.btn-primary:active:hover {
+.btn-heh.btn-primary:active, .btn-heh.btn-primary:active:focus, .btn-heh.btn-primary:active:hover {
 	background: #286090;
 	box-shadow: 0 0 #204d74;
 }
@@ -64,7 +64,7 @@
 	background: #e6e6e6;
 	box-shadow: 0 4px #9f9f9f;
 }
-.btn-heh.btn-default:active, .btn-heh.btn-default:focus, .btn-heh.btn-default:active:focus, .btn-heh.btn-default:active:hover {
+.btn-heh.btn-default:active, .btn-heh.btn-default:active:focus, .btn-heh.btn-default:active:hover {
 	background: #d4d4d4;
 	box-shadow: 0 0 #8c8c8c;
 }
