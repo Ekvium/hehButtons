@@ -53,8 +53,6 @@
 }
 .btn-heh.btn-primary:active, .btn-heh.btn-primary:focus, .btn-heh.btn-primary:active:focus, .btn-heh.btn-primary:active:hover {
 	background: #286090;
-}
-.btn-heh.btn-primary:active {
 	box-shadow: 0 0 #204d74;
 }
 
@@ -68,7 +66,5 @@
 }
 .btn-heh.btn-default:active, .btn-heh.btn-default:focus, .btn-heh.btn-default:active:focus, .btn-heh.btn-default:active:hover {
 	background: #d4d4d4;
-}
-.btn-heh.btn-default:active {
 	box-shadow: 0 0 #8c8c8c;
 }
